@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1150px;
+  background-image: url('../images/bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  margin: auto calc((100vw - 1150px) / 2);
+}
+
+header {
+    width: 1100px;
+    align-self: center;
+    border-bottom: 3px solid black;
+    border-radius: 5rem;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.container {
+    width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .col {
+  float: left;
+  box-sizing: border-box;
+  padding: 0 0.75rem;
+}
+
+.row .col[class*="push-"], .row .col[class*="pull-"] {
+  position: relative;
+}
+
+.row .col.l3 {
+    width: 25%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+input:not([type]),
+input[type=text],
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  font-size: 1rem;
+  margin: 0 0 15px 0;
+  padding: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+  transition: all .3s;
+}
+
+input[type=text] {
+    color: black;
+}
+
+textarea{
+    overflow-y: hidden;
+    padding: 1.6rem 0;
+    resize: none;
+    min-height: 3rem;
+    font-family: sans-serif;
+}
+
+input:not([type]) + label:after,
+input[type=text] + label:after,
+textarea + label:after {
+  display: block;
+  content: "";
+  color: black;
+  position: absolute;
+  top: 65px;
+  opacity: 0;
+  transition: .2s opacity ease-out, .2s color ease-out;
+}
+
+textarea {
+  height: 3rem;
+  background-color: transparent;
+}
+
+.btn{
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+  border-radius: 50rem;
+}
+
+.btn:hover {
+  background-color: rgb(62, 62, 62);
+}
+
+#form {
+    display:none;
+}
+input[type=text]{
+	color:black;
+}
+
+input[type="date"]{
+	border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 13.5px;
+	color:	black;
+}
+
+textarea{
+	color:black;
+}
+
+.another-font {
+    font-family: 'Manrope', sans-serif;
+}
