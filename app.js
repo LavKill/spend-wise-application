@@ -8,7 +8,7 @@ const router = express.Router();
 const res = require('express/lib/response');
 
 // DEFINE THE SERVER PORT
-const server = app.listen(process.env.PORT || port, () => console.log(`Example app listening at http://localhost:${port}`);
+const server = app.listen(process.env.PORT || port, () => console.log(`Example app is listening at http://localhost:${port}`));
 
 const index = require("./routes/index");
 
