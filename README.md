@@ -29,3 +29,10 @@ For the greater results it is needed from the person to be precise, accurate and
 6. To start the application, run the command: `node app.js`
 7. Go to: `http://localhost:3312`
 8. Enjoy the spendings tracker!
+
+## Links
+#### Github:
+[Github Link](https://github.com/LavKill/spend-wise-application)
+
+#### Deployment:
+[Deployment]()
